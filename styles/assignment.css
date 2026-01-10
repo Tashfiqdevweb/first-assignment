@@ -135,6 +135,7 @@ nav .menu a{
     width: 100%;
     max-width: 1140px;
     text-align: center;
+    background-color: #FFFFFF;
 }
 
 .cards-container h1{
@@ -162,7 +163,7 @@ nav .menu a{
 
 .card{
     padding: 69.5px 24px 21.5px;
-    
+    width: 322px;
     box-shadow: 0px 0px 8px 0px rgba(136, 135, 135, 0.582);
     border-radius: 8px;
     border-bottom-left-radius: 0px;
@@ -200,4 +201,53 @@ nav .menu a{
 
 
 
+#big-image{
 
+}
+
+.big-content{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: 120px;
+}
+    
+#green{
+    color: #30B868;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+
+.the-solution h1{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #001931;
+}
+
+.the-solution p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+
+
+
+.check-list{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 16px;
+}
+
+.check-list h3{
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 20px;
+    color: #001931;
+}
