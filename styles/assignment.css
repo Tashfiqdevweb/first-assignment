@@ -4,12 +4,15 @@
     box-sizing: border-box;
 }
 
+/* for font adding */
 
 .inter-font{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   
 }
+
+/* nav bar */
 
 header{
     background-color: #FFFFFF;
@@ -40,7 +43,12 @@ nav .menu a{
     color:#000000;
     font-weight: 500;
     font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 5px;
 }
+
+/* all buttons design */
+
 
 .btn{
     /* width: 164px; */
@@ -50,12 +58,9 @@ nav .menu a{
     border: none;
     font-size: 16px;
     font-weight: 600;
+    cursor: pointer;
 }
 
-.btn.green{
-    background-color: #469165;
-    color: #FFFFFF;
-}
 
 
 .btn.white{
@@ -64,6 +69,8 @@ nav .menu a{
     background-color: transparent;
 
 }
+
+/* Hero Section */
 
 .banner{
     background: linear-gradient(rgba(10, 30, 50, 0.233), rgba(10, 30, 50, 0.336)), url(../assets/hero-bg.png);
@@ -136,6 +143,10 @@ nav .menu a{
     
 }
 
+
+
+/* Cards section */
+
 .cards-container{
     margin: 0 auto;
     width: 100%;
@@ -174,7 +185,7 @@ nav .menu a{
     border-radius: 8px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-    
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 
 }
 
@@ -207,10 +218,7 @@ nav .menu a{
 }
 
 
-
-#big-image{
-
-}
+/* solution section */
 
 .big-content{
     display: flex;
@@ -260,6 +268,8 @@ nav .menu a{
 }
 
 
+/* last early access button section */
+
 .conclusion-content{
     margin: 0 120px 120px;
     background-color: #F7F6F2;
@@ -287,10 +297,6 @@ nav .menu a{
     
 }
 
-/* .click{
-    display:inline-flex;
-
-} */
 
 .click button{
     margin-bottom: 16px;
@@ -341,6 +347,35 @@ hr{
     margin-top: 30px;
 }
 
+/* some hover effects */
 
+nav .menu li a:hover {
+    background-color: rgba(48, 184, 104, 0.1);
+    color: #30B868;
+}
 
+.btn.green{
+    background-color: #469165;
+    color: #FFFFFF;
+    
+}
 
+.btn.green:hover{
+    background-color: #063d1c;
+}
+
+.btn.white:hover{
+    background-color: #FFFFFF;
+    color: #30B868;
+}
+
+.card:hover{
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+    border-bottom: 4px solid #30B868;
+}
+
+.early-badge:hover {
+    border-color: #30B868;
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(48, 184, 104, 0.2);
+}
