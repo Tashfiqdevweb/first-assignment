@@ -302,3 +302,45 @@ nav .menu a{
     align-items: center;
     gap: 10px;
 }
+
+.footer{
+    padding: 120px 120px 30px;
+    background-color: #001931;
+    text-align: center;
+
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-links{
+    text-align: left;
+}
+
+
+.social-links p{
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+
+hr{
+    margin-top: 80px;
+    border: 1px solid rgba(111, 109, 133, 0.534);
+}
+
+.bottom p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #FAFAFA;
+    margin-top: 30px;
+}
+
+
+
+
